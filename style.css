@@ -1,0 +1,85 @@
+/* Reset Document*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section,header, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+/*Config*/
+
+header {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1e 2.5em;
+    align-items:center;
+    background-color: #218201;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style:none;
+    display: inline-block;
+    margin:1rem;
+}
+
+#menu li a{
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2 rem;
+    border-radius: 3px;
+    text-shadow: 3px 3px 3px black; 
+}
+
+#menu li a:hover{
+    color: #21801
+    background-color: #fff;
+}
+
+#logo {
+    max-height: 5rem;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+#inicio{
+    background: #b39c4d;
+}
+#sobrenos{
+    background-color: #768948 ;
+    color: #333;
+}
+#produtos{
+    background-color: #607744;
+    color: #333;
+}
+#receitas{
+    background-color: #34623F;
+    color: #fff;
+}
+#contactos{
+    background-color: #1E2F23;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
