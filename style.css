@@ -7,6 +7,10 @@
 body{
     font-size: 100%;
     font-family: sans-serif;
+    background-image: url(images/interior.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
 }
 
 div, section,header, span, ul, li, a {
@@ -42,7 +46,7 @@ header {
 }
 
 #menu li a:hover{
-    color: #21801
+    color: #218201;
     background-color: #fff;
 }
 
@@ -59,7 +63,7 @@ section{
     background: #b39c4d;
 }
 #sobrenos{
-    background-color: #768948 ;
+    background-color: #75894865 ;
     color: #333;
 }
 #produtos{
@@ -82,4 +86,33 @@ h1{
 
 html{
     scroll-behavior: smooth;
+}
+
+#cards {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card_container {
+    padding: 1em 1.2em;
+}
+
+.card_pizzas img{
+    border-radius: 5px 5px 0px 0px;
+    object-fit: cover;
+    width:100%;
+    aspect-ratio: 16/0;
+}
+
+.card_container h4{
+    font-size: 100%;
+    color: red;
+}
+
+.card_pizzas:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    scale: 1,02;
+    rotate: 2deg;
 }
